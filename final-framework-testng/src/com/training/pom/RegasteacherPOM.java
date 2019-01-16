@@ -79,17 +79,13 @@ public class RegasteacherPOM {
 	this.phone.clear();
 	this.phone.sendKeys(phone);
     }
-	//public void sendlanguage(String language) { 
-	//this.Language.clear();
-	//this.Language.select(Language);	
-	//} 
+	
 	public void sendProfile(String Profile) {
 	this.Profile.click();
 	}
 	
 	public void clicksubmit() {
 	this.submit.click();
-	
 	}
 	
 	public void clicksignup() {
